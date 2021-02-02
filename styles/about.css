@@ -23,7 +23,7 @@
   src: url("../assets/fonts/cocogoose/Cocogoose_trial.otf") format("opentype");
 }
 
-* { font-family: lato, sans-serif; }
+body { font-family: "lato", sans-serif; }
 
 /* first section */
 #event-name {
