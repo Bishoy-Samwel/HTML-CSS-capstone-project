@@ -23,9 +23,7 @@
   src: url("../assets/fonts/cocogoose/Cocogoose_trial.otf") format("opentype");
 }
 
-* {
-  font-family: lato;
-}
+* { font-family: lato, sans-serif; }
 
 /* first section */
 #event-name {
@@ -78,8 +76,6 @@
   background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.b62-4m-9E2P3xpVl-9rz5gHaEL%26pid%3DApi&f=1);
   opacity: 0.9;
 }
-
-
 
 @media only screen and (max-width: 768px) {
   .main-menu {
