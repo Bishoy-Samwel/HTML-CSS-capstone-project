@@ -16,57 +16,215 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="style.css" />
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <title>Title</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top pb-5">
-        <button
-          class="navbar-toggler mr-auto"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <a class="navbar-brand" href="#">Conference</a>
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >About <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Program</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Join</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sponsor</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">News</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CC Campaign</a>
-            </li>
-          </ul>
-          
-        </div>
-      </nav>
-
-      <div class="jumbotron pt-5">
-        <p id="event-name">Hello</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aspernatur nisi quisquam, minus iure facilis, ducimus nostrum veniam soluta accusamus debitis tenetur vero quibusdam molestiae pariatur omnis deserunt minima rerum?</p>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top pb-5">
+      <button
+        class="navbar-toggler mr-auto"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="main-menu collapse navbar-collapse bg-light px-0" id="navbarSupportedContent">
+        <a class="navbar-brand" href="#">Conference</a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold" href="./pages/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#">Program</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#">Join</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#">Sponsor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#">CC Campaign</a>
+          </li>
+        </ul>
       </div>
-       
+    </nav>
 
+    <!-- first section [event name, description] -->
+    <div class="jumbotron1 pt-5">
+      <p id="event-name" class="px-3 py-0 my-0 h1">Hello</p>
+      <p class="bold-title px-3">Creative Commons Global Summit</p>
+      <p class="border border-white bg-light px-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+        aspernatur nisi quisquam, minus iure facilis
+      </p>
+    </div>
+
+    <!-- second section main program -->
+    <div class="jumbotron2 pt-5 bg-dark">
+      <p class="text-light text-center font-weight-bold">Main Program</p>
+      <div class="d-flex flex-column align-items-center">
+        <!-- main-program-item -->
+        <div class="d-flex flex-row bg-black mx-2 my-2">
+          <!-- icon and discription -->
+          <div class="d-flex flex-row align-items-center px-2">
+            <i class="fa fa-camera-retro fa-3x orange px-1"></i> 
+            <p class="px-1 h5 orange font-weight-bold">Title</p>
+          </div>
+          <p class="px-1 text-light font-weight-bold">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          </p>
+        </div>
+        <!-- main-program-item -->
+        <div class="d-flex flex-row bg-black mx-2 my-2">
+          <!-- icon and discription -->
+          <div class="d-flex flex-row align-items-center px-2">
+            <i class="fa fa-camera-retro fa-3x orange px-1"></i> 
+            <p class="px-1 h5 orange font-weight-bold">Title</p>
+          </div>
+          <p class="px-1 text-light font-weight-bold">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          </p>
+        </div>
+        <!-- main-program-item -->
+        <div class="d-flex flex-row bg-black mx-2 my-2">
+          <!-- icon and discription -->
+          <div class="d-flex flex-row align-items-center px-2">
+            <i class="fa fa-camera-retro fa-3x orange px-1"></i> 
+            <p class="px-1 h5 orange font-weight-bold">Title</p>
+          </div>
+          <p class="px-1 text-light font-weight-bold">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          </p>
+        </div>
+        
+        <!-- join button -->
+        <button type="button" class="btn text-light bg-orange font-weight-bold w-75 my-2">Join</button>
+      </div>
+    </div>
+
+    <!-- third section featured speakers -->
+    <div class="container">
+      <p class="text-center font-weight-bold">Featured Speakers</p>
+      <!-- main section for speakers -->
+      <div class="d-flex flex-column align-items-center">
+        <!-- speaker  -->
+        <div class="d-flex flex-row">
+          <!-- speaker image -->
+          <img class="px-2" src="https://picsum.photos/100" height="100px" alt="speaker">
+          <!-- speaker details -->
+          <div class="d-flex flex-column bg-light">
+            <p class="font-weight-bold p-0">Name</p>
+            <p class="orange p-0">Lorem ipsum dolor sit amet </p>
+            <p class="text-dark">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <!-- speaker  -->
+        <div class="d-flex flex-row">
+          <!-- speaker image -->
+          <img class="px-2" src="https://picsum.photos/100" height="100px" alt="speaker">
+          <!-- speaker details -->
+          <div class="d-flex flex-column bg-light">
+            <p class="font-weight-bold p-0">Name</p>
+            <p class="orange p-0">Lorem ipsum dolor sit amet </p>
+            <p class="text-dark">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <!-- speaker  -->
+        <div class="d-flex flex-row">
+          <!-- speaker image -->
+          <img class="px-2" src="https://picsum.photos/100" height="100px" alt="speaker">
+          <!-- speaker details -->
+          <div class="d-flex flex-column bg-light">
+            <p class="font-weight-bold p-0">Name</p>
+            <p class="orange p-0">Lorem ipsum dolor sit amet </p>
+            <p class="text-dark">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <!-- button More -->
+        <button type="button" class="btn text-dark bg-light font-weight-bold border w-100 my-2
+        "
+        type="button" data-toggle="collapse" data-target="#collapse-speakers" aria-expanded="false" aria-controls="collapse-speakers"
+        >More <span class="orange" >&#8681;</span> </button>
+        <div class="collapse" id="collapse-speakers">
+           <!-- speaker  -->
+        <div class="d-flex flex-row">
+          <!-- speaker image -->
+          <img class="px-2" src="https://picsum.photos/100" height="100px" alt="speaker">
+          <!-- speaker details -->
+          <div class="d-flex flex-column bg-light">
+            <p class="font-weight-bold p-0">Name</p>
+            <p class="orange p-0">Lorem ipsum dolor sit amet </p>
+            <p class="text-dark">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+         <!-- speaker  -->
+         <div class="d-flex flex-row">
+          <!-- speaker image -->
+          <img class="px-2" src="https://picsum.photos/100" height="100px" alt="speaker">
+          <!-- speaker details -->
+          <div class="d-flex flex-column bg-light">
+            <p class="font-weight-bold p-0">Name</p>
+            <p class="orange p-0">Lorem ipsum dolor sit amet </p>
+            <p class="text-dark">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        </div>
+        
+      </div>
       
+    </div>
+
+    <!-- fourth section partner -->
+    <div class="bg-dark">
+      <p class="text-center text-light font-weight-bold">Partners</p>
+      <!-- partners -->
+      <div class="container d-flex flex-row flex-wrap justify-content-center align-items-center">
+        <p class="h4 p-2 text-light">Partner</p>
+        <p class="h4 p-2 text-light">Partner</p>
+        <p class="h4 p-2 text-light">Partner</p>
+        <p class="h4 p-2 text-light">Partner</p>
+        <p class="h4 p-2 text-light">Partner</p>
+      </div>
+    </div>
+
+    <footer class="d-flex flex-row justify-content-center align-items-center">
+      <img src="./assets/images/logo-13.svg" alt="logo">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores,</p>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

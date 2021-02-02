@@ -1,0 +1,79 @@
+/* colors */
+:root { 
+  --black-color: #272A31;
+  --orange-color:#EC5242; 
+  --grey-color:#D3D3D3;
+}
+
+.orange{
+  color: var(--orange-color);
+}
+
+.bg-orange{
+  background-color: var(--orange-color);
+}
+
+.bg-black{
+  background-color: var(--black-color);
+} 
+
+
+/* fonts */
+@font-face {
+  font-family: cocogoose;
+  src: url("../assets/fonts/cocogoose/Cocogoose_trial.otf") format("opentype");
+}
+
+* {
+  font-family: lato;
+}
+
+
+/* first section */
+#event-name{
+  color: var(--orange-color);
+  font-family: lato;
+}
+.bold-title{
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: cocogose;
+  color: var(--orange-color);
+}
+
+
+.jumbotron1 {
+  position: relative;
+  background:none;
+}
+
+.jumbotron1:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../assets/images/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -1;
+}
+
+#jumbotron-past{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#jumbotron-past:after{
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.AwA2QIwlrwd1J9GBs-s3_QHaD0%26pid%3DApi&f=1);
+  opacity : 0.9;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-menu {
+    background-color: rgba(255, 188, 81, 0.4);
+  }
+}
