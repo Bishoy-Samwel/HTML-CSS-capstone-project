@@ -23,9 +23,7 @@
   src: url("../assets/fonts/cocogoose/Cocogoose_trial.otf") format("opentype");
 }
 
-* {
-  font-family: 'lato', sans-serif;
-}
+* { font-family: Lato, Helvetica, Arial, Verdana, Tahoma, sans-serif; }
 
 /* first section */
 #event-name {

@@ -48,18 +48,16 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
-        class="main-menu collapse navbar-collapse bg-light px-0"
+        class="collapse navbar-collapse bg-light px-0"
         id="navbarSupportedContent"
       >
         <a class="navbar-brand" href="#">Conference</a>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link font-weight-bold" href="./pages/about.html"
-              >About</a
-            >
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold"  href="./pages/about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">Program</a>
+            <a class="nav-link font-weight-bold" href="./index.html">Program</a>
           </li>
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="#">Join</a>
@@ -92,9 +90,9 @@
       <p class="text-light text-center font-weight-bold">Main Program</p>
       <div class="d-flex flex-column flex-md-row  flex-lg-row align-items-center">
         <!-- main-program-item -->
-        <div class="d-flex flex-row bg-black mx-2 my-2">
+        <div class="py-2 d-flex flex-row bg-black mx-2 my-2 flex-md-column flex-lg-coulmn">
           <!-- icon and discription -->
-          <div class="d-flex flex-row align-items-center px-2">
+          <div class="d-flex flex-row align-items-center px-2 flex-md-column flex-lg-coulmn">
             <i class="fa fa-camera-retro fa-3x orange px-1"></i>
             <p class="px-1 h5 orange font-weight-bold">Title</p>
           </div>
@@ -102,10 +100,10 @@
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
           </p>
         </div>
-        <!-- main-program-item -->
-        <div class="d-flex flex-row bg-black mx-2 my-2">
+         <!-- main-program-item -->
+         <div class="py-2 d-flex flex-row bg-black mx-2 my-2 flex-md-column flex-lg-coulmn">
           <!-- icon and discription -->
-          <div class="d-flex flex-row align-items-center px-2">
+          <div class="d-flex flex-row align-items-center px-2 flex-md-column flex-lg-coulmn">
             <i class="fa fa-camera-retro fa-3x orange px-1"></i>
             <p class="px-1 h5 orange font-weight-bold">Title</p>
           </div>
@@ -113,10 +111,10 @@
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
           </p>
         </div>
-        <!-- main-program-item -->
-        <div class="d-flex flex-row bg-black mx-2 my-2">
+         <!-- main-program-item -->
+         <div class="py-2 d-flex flex-row bg-black mx-2 my-2 flex-md-column flex-lg-coulmn">
           <!-- icon and discription -->
-          <div class="d-flex flex-row align-items-center px-2">
+          <div class="d-flex flex-row align-items-center px-2 flex-md-column flex-lg-coulmn">
             <i class="fa fa-camera-retro fa-3x orange px-1"></i>
             <p class="px-1 h5 orange font-weight-bold">Title</p>
           </div>
@@ -124,21 +122,10 @@
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
           </p>
         </div>
-        <!-- main-program-item -->
-        <div class="d-flex flex-row bg-black mx-2 my-2">
+         <!-- main-program-item -->
+         <div class="py-2 d-flex flex-row bg-black mx-2 my-2 flex-md-column flex-lg-coulmn">
           <!-- icon and discription -->
-          <div class="d-flex flex-row align-items-center px-2">
-            <i class="fa fa-camera-retro fa-3x orange px-1"></i>
-            <p class="px-1 h5 orange font-weight-bold">Title</p>
-          </div>
-          <p class="px-1 text-light font-weight-bold">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          </p>
-        </div>
-        <!-- main-program-item -->
-        <div class="d-flex flex-row bg-black mx-2 my-2">
-          <!-- icon and discription -->
-          <div class="d-flex flex-row align-items-center px-2">
+          <div class="d-flex flex-row align-items-center px-2 flex-md-column flex-lg-coulmn">
             <i class="fa fa-camera-retro fa-3x orange px-1"></i>
             <p class="px-1 h5 orange font-weight-bold">Title</p>
           </div>
@@ -150,19 +137,22 @@
         <!-- join button -->
       <button
       type="button"
-      class=" btn text-light bg-orange font-weight-bold w-75 my-2"
+      class="d-block d-md-none d-md-none btn text-light bg-orange font-weight-bold w-75 my-2"
     >
       Join
     </button>
+      <p class="d-lg-block d-md-block d-none"><a href="#" class="text-light font-weight-bold">
+        See The Full Program Now
+      </a></p>
     </div>
 
     <!-- third section featured speakers -->
     <div class="container">
       <p class="text-center font-weight-bold">Featured Speakers</p>
       <!-- main section for speakers -->
-      <div class="d-flex flex-column align-items-center">
+      <div class="row  d-flex flex-column flex-lg-row flex-md-row align-items-center   justify-content-center">
         <!-- speaker  -->
-        <div class="d-flex flex-row">
+        <div class="d-flex col-6-lg col-6-md flex-row">
           <!-- speaker image -->
           <img
             class="px-2"
@@ -180,7 +170,7 @@
           </div>
         </div>
         <!-- speaker  -->
-        <div class="d-flex flex-row">
+        <div class="d-flex col-6-lg col-6-md flex-row">
           <!-- speaker image -->
           <img
             class="px-2"
@@ -197,8 +187,10 @@
             </p>
           </div>
         </div>
+        <!-- divider -->
+        <!-- <div class="col-12-lg"></div> -->
         <!-- speaker  -->
-        <div class="d-flex flex-row">
+        <div class="d-flex col-6-lg col-6-md flex-row">
           <!-- speaker image -->
           <img
             class="px-2"
@@ -215,7 +207,24 @@
             </p>
           </div>
         </div>
-
+        <!-- speaker  -->
+        <div class="d-flex col-6-lg col-6-md flex-row">
+          <!-- speaker image -->
+          <img
+            class="px-2"
+            src="https://picsum.photos/100"
+            style="height: 100px;"
+            alt="speaker"
+          />
+          <!-- speaker details -->
+          <div class="d-flex flex-column bg-light">
+            <p class="font-weight-bold p-0">Name</p>
+            <p class="orange p-0">Lorem ipsum dolor sit amet</p>
+            <p class="text-dark">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
         <!-- button More -->
         <button
           type="button"
@@ -227,43 +236,43 @@
         >
           More <span class="orange">&#8681;</span>
         </button>
-        <div class="collapse" id="collapse-speakers">
+        <div class="collapse  flex-column align-items-center flex-lg-row flex-md-row  row justify-content-center" id="collapse-speakers">
           <!-- speaker  -->
-          <div class="d-flex flex-row">
-            <!-- speaker image -->
-            <img
-              class="px-2"
-              src="https://picsum.photos/100"
-              style="height: 100px;"
-              alt="speaker"
-            />
-            <!-- speaker details -->
-            <div class="d-flex flex-column bg-light">
-              <p class="font-weight-bold p-0">Name</p>
-              <p class="orange p-0">Lorem ipsum dolor sit amet</p>
-              <p class="text-dark">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              </p>
-            </div>
+        <div class="d-flex col-6-lg col-6-md flex-row">
+          <!-- speaker image -->
+          <img
+            class="px-2"
+            src="https://picsum.photos/100"
+            style="height: 100px;"
+            alt="speaker"
+          />
+          <!-- speaker details -->
+          <div class="d-flex flex-column bg-light">
+            <p class="font-weight-bold p-0">Name</p>
+            <p class="orange p-0">Lorem ipsum dolor sit amet</p>
+            <p class="text-dark">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
           </div>
-          <!-- speaker  -->
-          <div class="d-flex flex-row">
-            <!-- speaker image -->
-            <img
-              class="px-2"
-              src="https://picsum.photos/100"
-              style="height: 100px;"
-              alt="speaker"
-            />
-            <!-- speaker details -->
-            <div class="d-flex flex-column bg-light">
-              <p class="font-weight-bold p-0">Name</p>
-              <p class="orange p-0">Lorem ipsum dolor sit amet</p>
-              <p class="text-dark">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              </p>
-            </div>
+        </div>
+        <!-- speaker  -->
+        <div class="d-flex col-6-lg col-6-md flex-row">
+          <!-- speaker image -->
+          <img
+            class="px-2"
+            src="https://picsum.photos/100"
+            style="height: 100px;"
+            alt="speaker"
+          />
+          <!-- speaker details -->
+          <div class="d-flex flex-column bg-light">
+            <p class="font-weight-bold p-0">Name</p>
+            <p class="orange p-0">Lorem ipsum dolor sit amet</p>
+            <p class="text-dark">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
           </div>
+        </div>
         </div>
       </div>
     </div>
