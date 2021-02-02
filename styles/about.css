@@ -32,6 +32,7 @@
   color: var(--orange-color);
   font-family: lato;
 }
+
 .bold-title {
   font-size: 2rem;
   font-weight: 800;
@@ -44,7 +45,7 @@
   background: none;
 }
 
-.jumbotron1:after {
+.jumbotron1::after {
   content: "";
   display: block;
   position: absolute;
@@ -60,14 +61,25 @@
   z-index: -1;
 }
 
-#jumbotron-past {
+#jumbotron-past1 {
   background-color: rgba(255, 0, 0, 0.5);
 }
 
-#jumbotron-past:after {
+#jumbotron-past1::after {
   background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.AwA2QIwlrwd1J9GBs-s3_QHaD0%26pid%3DApi&f=1);
   opacity: 0.9;
 }
+
+#jumbotron-past2 {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#jumbotron-past2::after {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.b62-4m-9E2P3xpVl-9rz5gHaEL%26pid%3DApi&f=1);
+  opacity: 0.9;
+}
+
+
 
 @media only screen and (max-width: 768px) {
   .main-menu {

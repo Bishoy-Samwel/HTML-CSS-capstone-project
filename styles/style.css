@@ -20,7 +20,7 @@
 /* fonts */
 @font-face {
   font-family: cocogoose;
-  src: url("./assets/fonts/cocogoose/Cocogoose_trial.otf") format("opentype");
+  src: url("../assets/fonts/cocogoose/Cocogoose_trial.otf") format("opentype");
 }
 
 * {
@@ -32,6 +32,7 @@
   color: var(--orange-color);
   font-family: lato;
 }
+
 .bold-title {
   font-size: 2rem;
   font-weight: 800;
@@ -44,13 +45,13 @@
   background: none;
 }
 
-.jumbotron1:after {
+.jumbotron1::after {
   content: "";
   display: block;
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url(./assets/images/bg-image.jpg);
+  background-image: url(../assets/images/bg-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -64,7 +65,7 @@
   background-color: rgba(255, 0, 0, 0.5);
 }
 
-#jumbotron-past:after {
+#jumbotron-past::after {
   background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.AwA2QIwlrwd1J9GBs-s3_QHaD0%26pid%3DApi&f=1);
   opacity: 0.9;
 }
