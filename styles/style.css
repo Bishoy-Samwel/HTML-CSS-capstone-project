@@ -27,6 +27,19 @@
   font-family: "lato", sans-serif;
 }
 
+/* navbar */
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.brand-icon {
+  object-fit: cover;
+  height: 80px;
+  width: 80px;
+}
+
 /* first section */
 #event-name {
   color: var(--orange-color);

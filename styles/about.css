@@ -23,18 +23,33 @@
   src: url("../assets/fonts/cocogoose/Cocogoose_trial.otf") format("opentype");
 }
 
-* { font-family: Lato, Helvetica, Arial, Verdana, Tahoma, sans-serif; }
+* {
+  font-family: "lato", sans-serif;
+}
+
+/* navbar */
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.brand-icon {
+  object-fit: cover;
+  height: 80px;
+  width: 80px;
+}
 
 /* first section */
 #event-name {
   color: var(--orange-color);
-  font-family: lato;
+  font-family: lato, sans-serif;
 }
 
 .bold-title {
   font-size: 2rem;
   font-weight: 800;
-  font-family: cocogose;
+  font-family: cocogose, sans-serif;
   color: var(--orange-color);
 }
 
@@ -60,7 +75,9 @@
 }
 
 #jumbotron-past1 {
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(255, 0, 0, 0.3);
+  min-width: 300px;
+  min-height: 300px;
 }
 
 #jumbotron-past1::after {
@@ -69,7 +86,9 @@
 }
 
 #jumbotron-past2 {
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(255, 0, 0, 0.3);
+  min-width: 300px;
+  min-height: 300px;
 }
 
 #jumbotron-past2::after {
