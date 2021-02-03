@@ -19,7 +19,6 @@ This project contains of 3 pages (Home page, About page, Schedule page), It is r
 
 [Live Demo Link](https://bishoy-samwel.github.io/HTML-CSS-capstone-project/)
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -35,7 +34,8 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@Bishoy-Samwel](https://github.com/Bishoy-Samwel)
 - LinkedIn: [Bishoy Samwel](https://www.linkedin.com/in/bishoy-samwuel-ss/)
 
-👤 
+👤
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -52,4 +52,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](LICENSE) licensed.
