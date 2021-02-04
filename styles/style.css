@@ -74,6 +74,16 @@
   z-index: -1;
 }
 
+.speaker-img {
+  height: 100px;
+}
+
+.partner-img {
+  object-fit: fill;
+  width: 100px;
+  height: 100px;
+}
+
 .about-txt {
   padding-left: 5%;
   padding-right: 5%;

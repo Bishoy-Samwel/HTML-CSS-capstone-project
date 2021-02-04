@@ -81,6 +81,16 @@
   margin-right: 10%;
 }
 
+.speaker-img {
+  height: 100px;
+}
+
+.partner-img {
+  object-fit: fill;
+  width: 100px;
+  height: 100px;
+}
+
 #jumbotron-past1 {
   background-color: rgba(255, 0, 0, 0.3);
   min-width: 300px;
